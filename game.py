@@ -38,7 +38,7 @@ class Game:
             if not self.game_over:
                 self.update(dt)
             self.draw()
-        
+
         pygame.quit()
         sys.exit()
     
